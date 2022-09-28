@@ -1,0 +1,29 @@
+{
+  "name": "ch-srv-balance-carga",
+  "version": "1.0.0",
+  "description": "## Consigna #1: >Tomando con base el proyecto que vamos realizando, agregar un parámetro más en la ruta de comando que permita ejecutar al servidor en modo fork o cluster. Dicho parámetro será 'FORK' en el primer caso y 'CLUSTER' en el segundo, y de no pasarlo, el servidor iniciará en modo fork.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+		"bcrypt": "^5.0.1",
+		"cookie-parser": "^1.4.6",
+		"dotenv": "^16.0.2",
+		"express": "^4.18.1",
+		"express-session": "^1.17.3",
+		"mongoose": "^6.5.5",
+		"passport": "^0.6.0",
+		"passport-local": "^1.0.0",
+		"pug": "^3.0.2",
+		"yargs": "^17.5.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}
+
+
